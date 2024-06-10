@@ -71,7 +71,7 @@ from panel.widgets import Tqdm
 tqdm = Tqdm(width=300)
 # create a router object 
 router = OSRMRouter(mode="driving",
-                    base_url="http://10.30.6.109:5000"
+                    base_url="http://172.30.70.200:5000"
                     )
 
 def calculate_distance(run):
